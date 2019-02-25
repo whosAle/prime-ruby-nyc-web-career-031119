@@ -2,6 +2,8 @@
 def prime?(num)
   if num == 2 || num == 3
     true
+  elsif num < 1
+    false
   else
     if 2**(num-1) % num == 1 ? true : false
   end
