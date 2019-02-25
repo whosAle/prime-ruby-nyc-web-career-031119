@@ -5,6 +5,6 @@ def prime?(num)
   elsif num < 1
     false
   else
-    if 2**(num-1) % num == 1 ? true : false
+    true if 2**(num-1) % num == 1
   end
 end
